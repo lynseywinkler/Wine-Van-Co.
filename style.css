@@ -1,0 +1,109 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* GLOBAL CLASSES */
+.dark-green{
+    background-color: #0E201A;
+}
+.lighter-green{
+    background-color: #455A53;
+}
+
+.light-green{
+    background-color: #31403b;
+}
+
+.font-white{
+    color: white;
+}
+
+.script{
+    font-family: 'Pinyon Script', cursive;
+}
+
+/* // GLOBAL CLASSES */
+
+/* Header Section */
+#header-img{
+    background-image:url(./Images/tim-mossholder--r3ARWNHekk-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 42%;
+}
+
+#header-words{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 38%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#header-logo{
+    font-family: 'Pinyon Script', cursive;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+}
+
+/* Services Section */
+#services p{
+    color: rgb(14, 32, 26);
+    background-color: rgb(69, 90, 83, 35%);
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+    /* Mobile devices */
+    @media screen and (min-width: 320px) and (max-width:480px){ 
+        #header-words, #logo{
+            display: none;
+        } 
+        #header-logo{
+            top: 18%;
+            left: 50%;
+            font-size: 2.5rem;
+        }
+    }
+
+    /* Tablets */
+    @media screen and (min-width: 481px) and (max-width:768px){ 
+        #header-words{
+            top: 19%;
+            left: 30%;
+            font-size: 1rem;
+        } 
+        #header-logo{
+            top: 25%;
+            left: 50%;
+            font-size: 4rem;
+        }
+    }
+
+    /* Small screens */
+    @media screen and (min-width: 769px) and (max-width:1024px){ 
+        #header-words{
+            top: 38%;
+            left: 30%;
+            font-size: 1rem;
+        } 
+        #header-logo{
+            top: 45%;
+            left: 50%;
+            font-size: 4rem;
+        }
+    }
+
