@@ -19,6 +19,10 @@
     color: white;
 }
 
+.font-green{
+    color: #004A30;
+}
+
 .script{
     font-family: 'Pinyon Script', cursive;
 }
@@ -52,15 +56,22 @@
     font-size: 5rem;
 }
 
-/* Services Section */
-#services p{
-    color: rgb(14, 32, 26);
-    background-color: rgb(69, 90, 83, 35%);
+button{
+    cursor: pointer;
+    border: 1 solid white;
+    border-radius: 12px;
+    text-decoration: none;
 }
 
+/* Services Section */
 
-
-
+/* Location Section */
+#location{
+    background-image:url(./Images/ca-creative-z38uTGNpNnA-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 42%;
+}
 
 
 
