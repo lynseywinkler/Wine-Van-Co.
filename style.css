@@ -27,6 +27,17 @@
     font-family: 'Pinyon Script', cursive;
 }
 
+.button{
+    cursor: pointer;
+    background-color: #003524;
+    color: white;
+    padding: 10px 25px;
+}
+
+.button::hover{
+    background-color: red;
+}
+
 /* // GLOBAL CLASSES */
 
 /* Header Section */
@@ -56,18 +67,12 @@
     font-size: 5rem;
 }
 
-button{
-    cursor: pointer;
-    border: 1 solid white;
-    border-radius: 12px;
-    text-decoration: none;
-}
-
 /* Services Section */
 
 /* Location Section */
 #location{
     background-image:url(./Images/ca-creative-z38uTGNpNnA-unsplash.jpg);
+    opacity: 50%;
     background-size:cover;
     background-repeat: no-repeat;
     padding-bottom: 42%;
